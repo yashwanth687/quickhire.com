@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quick Hire</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img src="D:\html\logo.jpg" alt="Quick Hire Logo" class="logo">
+            <h1>Quick Hire</h1>
+        </header>
+        <div class="form-container">
+            <form id="register-form">
+                <h2>Register</h2>
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password" required>
+                </div>
+                <div class="form-group">
+                    <label for="role">Role</label>
+                    <select id="role" name="role" required>
+                        <option value="job-seeker">Job Seeker</option>
+                        <option value="employer">Employer</option>
+                    </select>
+                </div>
+                <button type="submit">Register</button>
+            </form>
+
+            <form id="login-form">
+                <h2>Login</h2>
+                <div class="form-group">
+                    <label for="email-login">Email</label>
+                    <input type="email" id="email-login" name="email-login" required>
+                </div>
+                <div class="form-group">
+                    <label for="password-login">Password</label>
+                    <input type="password" id="password-login" name="password-login" required>
+                </div>
+                <button type="submit">Login</button>
+            </form>
+        </div>
+        <footer>
+            <p>Contact us: lkarthik9706@gmail.com</p>
+        </footer>
+    </div>
+</body>
+</html>
